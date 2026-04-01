@@ -1,4 +1,5 @@
-# Automated Maintenance System [Developed by: Richard De Los Trinos]
+# Automated Maintenance System 
+### [Developed by: Richard De Los Trinos]
 
 ##  Overview
 
