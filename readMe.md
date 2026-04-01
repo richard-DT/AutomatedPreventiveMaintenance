@@ -1,9 +1,9 @@
 # Automated Maintenance System 
-### [Developed by: Richard De Los Trinos]
+### [Developer: Richard De Los Trinos]
 
 ##  Overview
 
-This project is an end-to-end preventive maintenance monitoring system built using Excel VBA. It combines data visualization, automation, and user interaction to help track machine health, manage maintenance activities, and reduce manual monitoring.
+This project is an end-to-end preventive maintenance monitoring system built using VBA. It combines data visualization, automation, and user interaction to help track machine health, manage maintenance activities, and reduce manual monitoring.
 
 ---
 
