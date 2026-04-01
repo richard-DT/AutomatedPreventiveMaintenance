@@ -1,22 +1,22 @@
-# Automated Preventive Maintenance System
+# Automated Maintenance System [Developed by: Richard De Los Trinos]
 
-## 📌 Overview
+##  Overview
 
 This project is an end-to-end preventive maintenance monitoring system built using Excel VBA. It combines data visualization, automation, and user interaction to help track machine health, manage maintenance activities, and reduce manual monitoring.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * Monitor overall and per-section machine health
 * Automate daily maintenance alerts for items due within 1 week
 * Provide an interactive dashboard for users
-* Allow users to update and track maintenance activities
+* Allow users to update and track maintenance activities through drill-down interaction
 * Auto-refresh data every minute for real-time monitoring
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 ### 1. Dashboard (UI Layer)
 
@@ -27,22 +27,23 @@ This project is an end-to-end preventive maintenance monitoring system built usi
 * Interactive sections that users can click (drill-down)
 * Auto-refreshes every minute for real-time updates
 
-### 2. Drill-Down Functionality
+### 2. Drill-Down Functionality with User Input
 
 * Users can click a section to view:
 
   * List of machines
   * Pending maintenance items
-* Hierarchical navigation from summary to detailed view
-
-### 3. Maintenance Tracking (CRUD Operations)
-
-* Users can:
+* Further clicking on a machine or task opens an **input form** where users can:
 
   * Mark maintenance as completed
   * Input details of work performed
-  * Update records
+  * Update records directly
+* This creates a **multi-level drill-down with interactive user input** (summary → pending items → maintenance update)
+
+### 3. Maintenance Tracking (CRUD Operations)
+
 * Tracks both pending and completed tasks
+* Integrates directly with user input from the drill-down UI
 
 ### 4. Automation (RPA-like Behavior)
 
@@ -62,7 +63,7 @@ This project is an end-to-end preventive maintenance monitoring system built usi
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 
 * Microsoft Excel
 * VBA (Visual Basic for Applications)
@@ -70,17 +71,17 @@ This project is an end-to-end preventive maintenance monitoring system built usi
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * Interactive dashboard with real-time status (auto-refresh every minute)
-* Drill-down navigation for detailed insights
+* **Multi-level drill-down navigation with user input**
 * Maintenance tracking with data input/update capability
 * Automated **daily email alert system** for due and pending maintenance
 * Historical data analysis for maintenance prediction
 
 ---
 
-## 📈 Impact
+## Impact
 
 * Reduced manual monitoring effort
 * Improved maintenance scheduling accuracy
@@ -89,21 +90,28 @@ This project is an end-to-end preventive maintenance monitoring system built usi
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 Include screenshots from your PowerPoint:
 
 1. Main Dashboard (overall status)
 2. Section Drill-Down View
-3. Maintenance Details Form
+3. Maintenance Details Form / User Input Form
 4. Daily Email Notification Example
 
 ---
 
-## 🔄 Future Improvements
+## Future Improvements
 
 * Integration with external dashboards (e.g., Power BI)
 * User access control and logging
 * Migration to a web-based system for wider accessibility
 
 ---
+
+## Developer Overview
+
+I developed a preventive maintenance monitoring system using Excel VBA that features an interactive dashboard with multi-level drill-down functionality. Users can view machine health, click into critical sections to see pending maintenance tasks, and further click on tasks to update completion status and work details. The system auto-refreshes data every minute and sends **daily email alerts** for due or pending maintenance within one week based on historical data analysis.
+
+---
+
